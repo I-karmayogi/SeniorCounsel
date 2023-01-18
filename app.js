@@ -9,7 +9,7 @@ const methodOverride = require('method-override');
 const User = require('./models/user');
 const passport = require('passport');
 const LocalStrategy = require('passport-local');
-const MongoDBStore = require('connect-mongo').default;
+const MongoDBStore = require('connect-mongo');
 
 if (process.env.NODE_ENV !== "production") {
     require('dotenv').config();
