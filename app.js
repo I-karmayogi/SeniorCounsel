@@ -39,7 +39,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const secret = process.env.SECRET || 'fasdfasdfasdfasdfasdf';
 
-const store = MongoDBStore.create({
+const store = new MongoDBStore({
     mongoUrl: dbUrl,
     secret: secret,
     touchAfter: 24 * 60 * 60
