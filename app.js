@@ -41,7 +41,7 @@ const secret = process.env.SECRET || 'fasdfasdfasdfasdfasdf';
 
 const store = MongoDBStore.create({
     mongoUrl: dbUrl,
-    secret,
+    secret: secret,
     touchAfter: 24 * 60 * 60
 });
 
