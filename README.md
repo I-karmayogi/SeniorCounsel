@@ -61,5 +61,5 @@ Once the SeniorCounsel Platform is set up and running, you can perform the follo
 - **Junior Exploration**: Juniors can explore available fields of expertise and view profiles of senior counsels in their desired areas
 
 
-#Hosted Application Link
+## Hosted Application Link
 https://seniorcounsel.onrender.com/
